@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: simple-server
-        image: DOCKER_IMAGE:DOCKER_IMAGE_VERSION
+        image: localhost:5001/argocd-sample.git:latest
         ports:
         - containerPort: 8000
 
